@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+body {
+  .primary-container {
+    padding: 0;
+    border-top: 5px solid rgb(184, 183, 183);
+    .logoBg {
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .logo-container {
+        background: url(../assets/ezgif-7-0a9bdf989224.gif) no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 400px;
+        width: 250px;
+        max-width: 650px;
+      }
+
+      .header-btns {
+        width: 200px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 30px;
+        margin-top: 15px;
+        .btn {
+          width: 50px;
+          padding: 0;
+          a {
+            width: 50px;
+            img {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+    .divition {
+      height: 50px;
+      background: #f3f3f3;
+    }
+    .main {
+      background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
+        url(../assets/mainBg.jpg);
+      background-attachment: fixed;
+      background-size: cover;
+      background-position: center center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 20px;
+      padding-bottom: 40px;
+
+      .card {
+        font-family: 'Poppins', sans-serif;
+        margin-top: 20px;
+        border: none;
+        outline: none;
+        box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.3);
+        max-width: 300px;
+        height: 534px;
+        background: rgb(65, 65, 65);
+
+        .inner {
+          overflow: hidden;
+
+          img {
+            transition: all 1s ease;
+          }
+
+          img:hover {
+            transform: scale(1.5);
+          }
+        }
+
+        .card-body {
+          border-top: 2px solid rgba(20, 20, 20, 0.5);
+          color: white;
+          background: rgb(65, 65, 65);
+          .card-title {
+            text-align: center;
+            margin-bottom: 20px;
+          }
+          .list-group {
+            li {
+              background: rgb(65, 65, 65);
+              color: white;
+              color: rgba($color: #f3f3f3, $alpha: 0.9);
+              font-weight: 300;
+
+              img {
+                width: 30px;
+                margin-right: 10px;
+              }
+
+              span {
+                font-size: 0.8rem;
+                font-weight: 100;
+                font-style: italic;
+                margin-left: 40px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  body {
+    .primary-container {
+      .main {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+      }
+    }
+  }
+}
