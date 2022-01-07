@@ -2,178 +2,224 @@
 body .primary-container {
   overflow: hidden;
   padding: 0;
-  background: white; }
-  body .primary-container .logoBg {
-    height: 500px;
-    background-color: white;
-    background: url(../assets/headerbg1.png);
-    background-repeat: no-repeat;
-    background-position: bottom left;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; }
-    body .primary-container .logoBg .logo-container {
-      background: url(../assets/ezgif-7-0a9bdf989224.gif) no-repeat;
-      background-position: center;
-      background-size: cover;
-      height: 400px;
-      width: 250px;
-      max-width: 650px; }
-  body .primary-container .divition {
-    padding: 20px 0;
-    background: #f3f3f3;
-    display: flex;
-    justify-content: center;
-    align-items: center; }
-    body .primary-container .divition .header-btns {
-      height: 100%;
-      width: 300px;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-      align-items: center; }
-      body .primary-container .divition .header-btns .btn {
-        padding: 15px 30px;
-        background: #fd6077;
-        transition: all 0.5s ease; }
-        body .primary-container .divition .header-btns .btn a {
-          text-decoration: none;
-          font-family: 'Poppins', sans-serif;
-          color: white;
-          display: flex;
-          flex-direction: row;
-          justify-content: space-around;
-          align-items: center; }
-          body .primary-container .divition .header-btns .btn a i {
-            font-size: 2rem;
-            margin-right: 15px; }
-      body .primary-container .divition .header-btns .btn:hover {
-        transform: scale(1.1); }
-  body .primary-container .mainContainer {
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-    margin-bottom: 20px;
-    background: white; }
-    body .primary-container .mainContainer .mainInfo {
-      padding: 20px 20px;
-      font-family: 'Poppins', sans-serif;
-      font-size: clamp(1rem, 5vw, 1.5rem);
-      color: white;
-      background: #00b5c7;
-      margin: 0; }
-      body .primary-container .mainContainer .mainInfo .info--1,
-      body .primary-container .mainContainer .mainInfo .info--2 {
-        margin: 20px; }
-      body .primary-container .mainContainer .mainInfo .info--1 span {
-        font-weight: bolder;
-        font-style: italic; }
-    body .primary-container .mainContainer .mainAnimation {
-      height: 400px;
-      width: auto;
-      background: url(../assets/69263-my-dog-and-me.gif);
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center center; }
-  body .primary-container .services {
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(../assets/mainBg.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: bottom;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 20px;
-    padding-bottom: 40px; }
-    body .primary-container .services .card {
-      font-family: 'Poppins', sans-serif;
-      margin-top: 20px;
-      border: none;
-      outline: none;
-      box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.3);
-      max-width: 300px;
-      height: 534px;
-      background: #414141; }
-      body .primary-container .services .card .inner {
-        overflow: hidden; }
-        body .primary-container .services .card .inner img {
-          transition: all 1s ease; }
-        body .primary-container .services .card .inner img:hover {
-          transform: scale(1.5); }
-      body .primary-container .services .card .card-body {
-        border-top: 2px solid rgba(20, 20, 20, 0.5);
-        color: white;
-        background: #414141; }
-        body .primary-container .services .card .card-body .card-title {
-          text-align: center;
-          margin-bottom: 20px; }
-        body .primary-container .services .card .card-body .list-group li {
-          background: #414141;
-          color: white;
-          color: rgba(243, 243, 243, 0.9);
-          font-weight: 300; }
-          body .primary-container .services .card .card-body .list-group li img {
-            width: 30px;
-            margin-right: 10px; }
-          body .primary-container .services .card .card-body .list-group li span {
-            font-size: 0.8rem;
-            font-weight: 100;
-            font-style: italic;
-            margin-left: 40px; }
-  body .primary-container .footerContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: black;
-    padding: 30px 5px;
-    font-family: 'Poppins', sans-serif; }
-    body .primary-container .footerContainer .footerLogo img {
-      width: 250px; }
-    body .primary-container .footerContainer .footerData {
-      margin: 20px 0;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      text-transform: uppercase;
-      font-size: 1.2rem;
-      color: white; }
-    body .primary-container .footerContainer .footerInfo ul {
-      color: white; }
-      body .primary-container .footerContainer .footerInfo ul li {
-        padding: 10px;
-        list-style-type: none;
-        display: flex;
-        flex-direction: row;
-        align-items: center; }
-        body .primary-container .footerContainer .footerInfo ul li i {
-          font-size: 2rem;
-          margin-right: 10px;
-          color: #fd6077; }
+  background: white;
+}
+body .primary-container .logoBg {
+  height: 500px;
+  background-color: white;
+  background: url(../assets/headerbg1.png);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .primary-container .logoBg .logo-container {
+  background: url(../assets/ezgif-7-0a9bdf989224.gif) no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  width: 250px;
+  max-width: 650px;
+}
+body .primary-container .divition {
+  padding: 20px 0;
+  background: #f3f3f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .primary-container .divition .header-btns {
+  height: 100%;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+body .primary-container .divition .header-btns .btn {
+  padding: 15px 30px;
+  transition: all 0.5s ease;
+}
+body .primary-container .divition .header-btns .btn a {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+body .primary-container .divition .header-btns .btn a i {
+  font-size: 2rem;
+  margin-right: 15px;
+}
+body .primary-container .divition .header-btns .ig-btn {
+  background: #fd6077;
+}
+body .primary-container .divition .header-btns .pdf-btn {
+  background: #35363b;
+  margin-top: 20px;
+}
+body .primary-container .divition .header-btns .btn:hover {
+  transform: scale(1.1);
+}
+body .primary-container .mainContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin-bottom: 20px;
+  background: white;
+}
+body .primary-container .mainContainer .mainInfo {
+  padding: 20px 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: clamp(1rem, 5vw, 1.5rem);
+  color: white;
+  background: #00b5c7;
+  margin: 0;
+}
+body .primary-container .mainContainer .mainInfo .info--1,
+body .primary-container .mainContainer .mainInfo .info--2 {
+  margin: 20px;
+}
+body .primary-container .mainContainer .mainInfo .info--1 span {
+  font-weight: bolder;
+  font-style: italic;
+}
+body .primary-container .mainContainer .mainAnimation {
+  height: 400px;
+  width: auto;
+  background: url(../assets/69263-my-dog-and-me.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+body .primary-container .services {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(../assets/mainBg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: bottom;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+body .primary-container .services .card {
+  font-family: "Poppins", sans-serif;
+  margin-top: 20px;
+  border: none;
+  outline: none;
+  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.3);
+  max-width: 300px;
+  height: 534px;
+  background: #414141;
+}
+body .primary-container .services .card .inner {
+  overflow: hidden;
+}
+body .primary-container .services .card .inner img {
+  transition: all 1s ease;
+}
+body .primary-container .services .card .inner img:hover {
+  transform: scale(1.5);
+}
+body .primary-container .services .card .card-body {
+  border-top: 2px solid rgba(20, 20, 20, 0.5);
+  color: white;
+  background: #414141;
+}
+body .primary-container .services .card .card-body .card-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+body .primary-container .services .card .card-body .list-group li {
+  background: #414141;
+  color: white;
+  color: rgba(243, 243, 243, 0.9);
+  font-weight: 300;
+}
+body .primary-container .services .card .card-body .list-group li img {
+  width: 30px;
+  margin-right: 10px;
+}
+body .primary-container .services .card .card-body .list-group li span {
+  font-size: 0.8rem;
+  font-weight: 100;
+  font-style: italic;
+  margin-left: 40px;
+}
+body .primary-container .footerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: black;
+  padding: 30px 5px;
+  font-family: "Poppins", sans-serif;
+}
+body .primary-container .footerContainer .footerLogo img {
+  width: 250px;
+}
+body .primary-container .footerContainer .footerData {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  color: white;
+}
+body .primary-container .footerContainer .footerInfo ul {
+  color: white;
+}
+body .primary-container .footerContainer .footerInfo ul li {
+  padding: 10px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+body .primary-container .footerContainer .footerInfo ul li i {
+  font-size: 2rem;
+  margin-right: 10px;
+  color: #fd6077;
+}
 
 @media screen and (min-width: 650px) {
   body .primary-container .logoBg {
-    background-position: bottom; }
+    background-position: bottom;
+  }
   body .primary-container .mainContainer .mainAnimation {
     background-size: contain;
-    background-position: bottom; } }
-
+    background-position: bottom;
+  }
+}
 @media screen and (min-width: 1000px) {
   body .primary-container .services {
     flex-direction: row;
     justify-content: space-around;
-    align-items: center; }
+    align-items: center;
+  }
   body .primary-container .mainContainer {
-    flex-direction: row-reverse; }
-    body .primary-container .mainContainer .mainInfo {
-      width: 50%;
-      padding: 30px 70px; }
-    body .primary-container .mainContainer .mainAnimation {
-      width: 50%;
-      height: auto;
-      background-size: contain; }
+    flex-direction: row-reverse;
+  }
+  body .primary-container .mainContainer .mainInfo {
+    width: 50%;
+    padding: 30px 70px;
+  }
+  body .primary-container .mainContainer .mainAnimation {
+    width: 50%;
+    height: auto;
+    background-size: contain;
+  }
   body .primary-container .footerContainer {
     flex-direction: row;
-    justify-content: space-around; } }
+    justify-content: space-around;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -35,13 +35,12 @@ body {
         height: 100%;
         width: 300px;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-around;
         align-items: center;
 
         .btn {
           padding: 15px 30px;
-          background: #fd6077;
           transition: all 0.5s ease;
           a {
             text-decoration: none;
@@ -57,6 +56,14 @@ body {
               margin-right: 15px;
             }
           }
+        }
+
+        .ig-btn {
+          background: #fd6077;
+        }
+        .pdf-btn {
+          background: #35363b;
+          margin-top: 20px;
         }
 
         .btn:hover {
