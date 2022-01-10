@@ -61,9 +61,18 @@ body {
         .ig-btn {
           background: #fd6077;
         }
-        .pdf-btn {
-          background: #35363b;
-          margin-top: 20px;
+
+        .pdf-container {
+          padding: 30px 20px;
+          margin-top: 10px;
+          .pdf-container__text {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+          }
+          .pdf-btn {
+            background: #35363b;
+            margin-top: 20px;
+          }
         }
 
         .btn:hover {
@@ -241,6 +250,18 @@ body {
 @media screen and (min-width: 1000px) {
   body {
     .primary-container {
+      .pdf-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 80vw;
+        text-align: center;
+
+        .pdf-container__text {
+          font-size: 1.4rem;
+        }
+      }
       .services {
         flex-direction: row;
         justify-content: space-around;

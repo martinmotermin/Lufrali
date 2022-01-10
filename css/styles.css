@@ -58,7 +58,15 @@ body .primary-container .divition .header-btns .btn a i {
 body .primary-container .divition .header-btns .ig-btn {
   background: #fd6077;
 }
-body .primary-container .divition .header-btns .pdf-btn {
+body .primary-container .divition .header-btns .pdf-container {
+  padding: 30px 20px;
+  margin-top: 10px;
+}
+body .primary-container .divition .header-btns .pdf-container .pdf-container__text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+body .primary-container .divition .header-btns .pdf-container .pdf-btn {
   background: #35363b;
   margin-top: 20px;
 }
@@ -199,6 +207,17 @@ body .primary-container .footerContainer .footerInfo ul li i {
   }
 }
 @media screen and (min-width: 1000px) {
+  body .primary-container .pdf-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 80vw;
+    text-align: center;
+  }
+  body .primary-container .pdf-container .pdf-container__text {
+    font-size: 1.4rem;
+  }
   body .primary-container .services {
     flex-direction: row;
     justify-content: space-around;
